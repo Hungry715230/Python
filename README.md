@@ -1,2 +1,2 @@
-# Simple-Python
-This is some simple python projects I write up
+# Simple Python
+Just select the project you wish to download and download it or copy the code.
