@@ -69,6 +69,7 @@ class Game:
       print('3. Equip Weapon')
       print('4. Equip Armour')
       action = input('Enter the number of your choice: ')
+      print(" ")
      
       if action == '1':
         monster = self.choose_monster(monsters)
@@ -90,7 +91,7 @@ class Game:
       elif action == '4':
         armour = self.choose_armour([armour1, armour2])
         player.equip_armour(armour)
-        print(f'You equip the {armour.name}')
+        print(f'You equip the {armour.name}\n')
      
       # monsters turn
       for monster in monsters:
@@ -99,6 +100,7 @@ class Game:
         if player.hit_points <= 0:
           print('You have been defeated!')
           return
+      print(" ")
      
       # check if all monsters have been defeated
       if not monsters:
