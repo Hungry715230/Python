@@ -60,11 +60,10 @@ while True:
         Sqrt()
     if desicion == "help" or desicion == "Help":
         print("Functions:")
-        print("    Add, spelling: add, Add")
-        print("    Subtract, spelling: subtract, Subtract")
-        print("    Multiply, spelling: multiply, Multiply")
-        print("    Divide, spelling: divide, Divide")
+        print("    Add, spelling: add, Add, addition, Addition")
+        print("    Subtract, spelling: subtract, Subtract, sub, Sub")
+        print("    Multiply, spelling: multiply, Multiply, mult, Mult")
+        print("    Divide, spelling: divide, Divide, div, Div")
         print("    Power, spelling: power, Power, pow, Pow")
         print("    Square Root, spelling: sqrt, Sqrt, square root, Square root, Square Root")
         print("    Help, spelling: help, Help")
-
