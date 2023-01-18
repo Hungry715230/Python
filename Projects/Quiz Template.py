@@ -1,7 +1,5 @@
 global score
 score = 0
-
-#Defines Functions
 def ask01():
         global score
         answer01 = input("")
@@ -242,7 +240,10 @@ def ask30():
         score+=1
     else:
         print("Incorrect")
-
+def intro():
+    print("Intro Goes Here")
+def score():
+    print("You got " + str(score) + "/30 correct")
 def ask_questions():
         ask01()
         ask02()
@@ -275,8 +276,9 @@ def ask_questions():
         ask29()
         ask30()
 
-print("Intro Goes Here")
 
+
+#Game
+intro()
 ask_questions()
-
-print("You got " + str(score) + "/30 correct")
+score()
