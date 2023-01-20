@@ -1,9 +1,9 @@
 import random
 import string
 action = input("Do you want a secure password? (y / n)")
-if action.lower() == "y":
+if action.lower() == "y" or "yes":
     print("Okay\n")
     randomString = ''.join([random.choice(string.ascii_letters + string.digits + string.punctuation ) for n in range(20)])
     print(randomString)
 else:
-    print("\nI is sad")
+    print("\nHere is your unsecure password:\n\nAB123456789")
