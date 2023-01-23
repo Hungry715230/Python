@@ -46,3 +46,5 @@ if special and not numbers and not lowercase and not uppercase:
     print("".join(random.choice(string.punctuation)))
 if numbers and not special and not lowercase and not uppercase:
     print("".join(random.choice(string.digits)))
+if not numbers and not special and not uppercase and not lowercase:
+    print("AB123456789")
