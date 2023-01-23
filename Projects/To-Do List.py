@@ -20,7 +20,7 @@ while True:
             print(f"{element}")
         print(" ")
     if action.lower() == "sort":
-        sort(ToDoList)
+        ToDoList.sort()
         print("\nYour list was sorted.\n")
     if action.lower() == "remove":
         removing = input("\nWhat would you like to remove?")
