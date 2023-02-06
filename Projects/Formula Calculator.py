@@ -50,6 +50,6 @@ while True:
     if action == "Circumference" or action == "circumference" or action == "circ" or action == "Circ":
         Circumference()
     if action == "Pythagorean Theorem" or action == "Py" or action == "py":
-        PythagoreanTheorem
+        PythagoreanTheorem()
     if action == "CircArea" or action == "circarea":
         CircleArea()
